@@ -8,18 +8,12 @@
             "email": "dtekind@gmail.com"
         }
     ],
-    "repositories": [
-       {
-            "type": "git",
-            "url": "https://github.com/jrtransit/PayPal-PHP-SDK"
-        }
-    ],
     "require": {
         "php": ">=5.3.0|>=8.0",
         "illuminate/support": "~5.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "ext-curl": "*",
         "ext-json": "*",
-        "paypal/rest-api-sdk-php": "1.14.0"
+        "jrtransit/PayPal-PHP-SDK": "^1.15.0"
     },
     "require-dev":{
         "phpspec/phpspec": "~2.0"
